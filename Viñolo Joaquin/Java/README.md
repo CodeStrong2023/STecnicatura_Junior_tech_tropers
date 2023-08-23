@@ -2,4 +2,5 @@
 Grupo Junior Tech Tropers
 
 Definimos formato de orden 
-Vamos a aprender
+Vamos a aprender 
+Primer modificación README
