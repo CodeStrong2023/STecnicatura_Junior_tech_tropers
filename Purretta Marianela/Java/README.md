@@ -13,6 +13,10 @@ LISTAS (uso de rangos)
 TUPLAS (pasar de listas a tuplas y viseversa)
 
 _CLASE 2
+Colecciones parte 2
+TIPO SET
+DICCIONARIO
+LISTAS Y TUPLAS
 
 _CLASE 3
 
