@@ -27,9 +27,10 @@ _CLASE 4
 _CLASE 1 14/08/23
 Instalación
 
-_CLASE 2
+_CLASE 2 28/08/2023
+Hola Mundo
 
-_CLASE 3
+_CLASE 3  
 
 *PROGRAMACION II:
 ---JAVA---
@@ -44,6 +45,10 @@ Ejercicios con y sin clase Scanner
 Ejercicios con clase POptionPane
 Creación de clases
 
-_CLASE 3
+_CLASE 3 30/08/2023
+Ejercicios con y sin clase Scanner
+Ejercicios con clase POptionPane
+Clases y Objetos
+
 
 _CLASE 4
