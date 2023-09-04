@@ -1,5 +1,6 @@
 # lista = Elemento1, Elemento2, Elemento3, Elemento4
 """
+COLECCIONES EN PYTHON (LISTA o ARREGLO o VECTORES)
 Al crear una lista, los elementos toman posiciones como elementos de un conjunto.
 """
 nombres = ["Elemento1", "Elemento2", "Elemento3", "Elemento4"]
@@ -41,7 +42,13 @@ print(len(nombres)) # Len determina la cantidad de elementos del parametro (la l
 
 # Agregamos un elemento
 nombres.append("ElementoS")
+nombres.append([1, 2, 3])
+nombres.append(True)
+nombres.append([10.45])
+nombres.append([4, 5])
+nombres.append(7)
 print(nombres)
+# Una lista puede tener diferente tipos de elementos
 
 # insertar un elemento en un indice espesifico
 nombres.insert(1, "ElementoA") #Se agrega el elemento en dicha posicion, pero desplaza los demas a la derecha
@@ -155,3 +162,125 @@ for numero in tupla:
     if numero < 5:
         lista.append(numero)
 print(f"La nueva lista es: {lista}")
+
+#------------------------------------------------------
+# Tipo set (conjunto)
+planetas = {"Marte", "Jupiter", "Venus"}
+print(planetas)
+print(len(planetas)) #Usamos la guncion len = length significa largo
+
+# Revisamos si un elemento existe dentor de un set
+print("Marte" in planetas) #El elemento a buscar debe escribirse igual al de la lista
+
+# Revisamos si no existe un elemento dentro de un ser
+print("Saturno" not in planetas)
+
+# Agregar un elemento
+planetas.add("Tierra")
+print(planetas)
+
+# Eliminar elementos
+planetas.remove("Jupiter") # Puede arrojar error si el elemento no esta en la lista
+print(planetas)
+
+planetas.discard("Tierra")
+print(planetas)
+
+# limpiar set
+planetas.clear()
+print(planetas)
+
+#Eliminar set o conjunto
+"""
+del planetas
+print(planetas)
+"""
+# ---------------------------------------------------------------------------
+# DICCIONARIO
+# "Maradora":10 un diccionario esta compuesto de dos elementos asociados
+# Una LLAVE y un VALOR
+# dict{key, value}
+diccionario = {
+    "IDE" : "Integrate Development Eviroment",
+    "POO" : "Programacion Orientada a Objetos",
+    "SABD": "Sistema de adminitracion de Base de datos"
+}
+print(diccionario)
+print(len(diccionario))
+
+# Acceder a un diccionario con la llave(KEY)
+print(diccionario["IDE"])
+
+# Otra forma de recuperar un elemento
+print(diccionario.get("POO"))
+print(diccionario.get("SABD"))
+
+#Modificamos elementos
+diccionario["IDE"] = "Entorno de desarrollo Integrado"
+print(diccionario)
+
+# Como recorrer los elementos
+for termino in diccionario:
+    print(termino) # Solo accedemos a las llaves
+
+# Necesitamos una funcion para recorrer un diccionario
+for termino, valor in diccionario.items():
+    print(termino, valor) # Accedemos a las llaves y al valor
+
+# Otras maneras de acceder a un diccionario
+for termino in diccionario.keys(): # Estamos usando una funcion KEYS
+    print(termino) # Muestra solo las llaves
+
+for valor in diccionario.values():  # Usamos una fucnion para acceder el valor
+        print(valor)  # visualiza los valores sin llaves
+
+print("IDE" in diccionario) # Devuelve un booleano
+
+# Comprobar la existencia de algun elemento
+
+# Agregar un elemento
+diccionario["PK"] = "Primary Key"
+print(diccionario)
+
+# Eliminar un elemento
+diccionario.pop("SABD")
+print(diccionario)
+
+# Eliminar todos los elementos
+diccionario.clear()
+print(diccionario)
+"""
+# Eliminar diccionario
+del diccionario # el diccionario se borro
+"""
+
+# Concatenamos listas
+lista1 = [1, 2, 3, 1]
+lista2 = [4, 5, 6, 1]
+lista3 = lista1 + lista2
+print(lista3)
+
+lista3.extend([7, 8, 9, 1]) # Funcion para agregar varios elementos a una lista
+print(lista3)
+
+print(lista3.index(5)) # la funcion index nos indica el indice de su posicion en la lista
+# print(lista3.index(0)) # esto daria un error por no ser el elemento parte de la lista
+
+# como saber cuantos valores repetidos hay dentro de una lista
+print(lista3.count(1)) # cuenta cuantos valores iguales hay dentro de la lista
+
+# Para que una lista se multiplique repitiendo sus elementos
+lista = [1, 2, 3] * 2
+print(lista)
+
+# Metodo de ordenamiento
+lista3.sort()
+print(lista3)
+lista3.sort(reverse=True)
+print(lista3)
+
+# Repaso tuplas
+tupla = (4, "hola", 6.3, [1, 2, 78], 4, "hola")
+print(tupla)
+
+print(4 in tupla) # Buscar un elementos
