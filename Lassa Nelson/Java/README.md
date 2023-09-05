@@ -2,4 +2,5 @@
 Grupo Junior Tech Tropers
 
 Definimos formato de orden 
-Vamos a aprender
+Clase 1 -> Ciclos while-do while-for con uso de break y continue- labels
+Clase 2 -> Ciclos con clase Scanner-JOptionPane
