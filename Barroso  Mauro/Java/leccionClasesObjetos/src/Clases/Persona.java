@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Clases;
 
-/**
- *
- * @author Mauro Barroso
- */
+
 public class Persona {
+
+    static Persona persona2;
+   //Caracteristicas de la clase, atributos
+    String nombre;
+    String apellido;
     
+//Metodo de la clase (acciones)
+    public void obtenerInformacion(){
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Apellido: "+apellido);
+    }
 }
