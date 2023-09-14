@@ -26,7 +26,13 @@ REPASO DICCIONARIOS
 MÉTODO PILAS
 MÉTODO COLAS
 
-_CLASE 4
+_CLASE 4 11/08/2023
+Ejercicio de Colecciones 1-2-3
+Ejercicio 1 con Matemáticas y la clase math
+Recorremos el Diccionario seleccionArgentina
+Ejercicio 1 Llenar una Lista
+Ejercicio 2 Modificar los Elemento de una Lista
+Ejercicio 3 Insertar Elementos y Ordenarlos Función sort()
 
 ---JAVA SCRIPT---
 _CLASE 1 14/08/23
