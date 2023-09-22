@@ -1,6 +1,6 @@
-# LISTAS: Sebastian, Emir, Sahir , 45, 56
+# LISTAS: Mauro, Luciana, Nahuel , 30, 45
 # las listas pueden tener diferentes tipos de datos
-lista1 = ['Sebastian', 'Sahir', 'Anibal', 24, 25]
+lista1 = ['Mauro', 'Luciana', 'Nahuel', 30, 45]
 # Imprimimos lista completa
 print(lista1)
 # para recorrer desde una posicion hasta otra
@@ -10,8 +10,8 @@ print(lista1[:3])
 # ahora indicamos desde indice indicado hasta el final
 print(lista1[1:])
 # modificar el valor
-lista1[3] = 'Emir'
-lista1[1] = 'Marianela'
+lista1[3] = 'Anibal'
+lista1[1] = 'Mauro'
 print(lista1)
 # Iterar una lista
 for nombre in lista1:
@@ -21,8 +21,8 @@ else:
 
 # PREGUNTAR CANTIDAD DE ELEMENTOS
 print(len(lista1))
-# Agregar elementos con nombre de lista + . para acceder a appennd(ej: ('Lucia')
-lista1.append('Lucia')
+# Agregar elementos con nombre de lista + . para acceder a appennd(ej: ('Leandra')
+lista1.append('Leandra')
 lista1.append([1, 2, 3])
 lista1.append(True)
 lista1.append(10.12)
