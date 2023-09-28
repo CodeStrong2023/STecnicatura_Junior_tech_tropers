@@ -2,7 +2,7 @@ package Operaciones;
 
 public class Aritmetica {
 
-    /*las clases siempre, a diferencia de los métodos y atributos, comienza con mayuscola*/
+    /*las clases siempre, a diferencia de los métodos y atributos, comienza con mayúscula*/
     //atributos de la clase:
     int a;
     int b;//valor por default=0 al ni inicializar la variable int
@@ -51,5 +51,5 @@ public class Aritmetica {
         su uso es opcional, y se crea automaticamente, permite que los atrib y argum tengan el 
         mismo nobre y los diferencia*/
     }
-
+    
 }

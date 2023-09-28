@@ -56,7 +56,24 @@ class Persona { //segunda clase sin modificador de acceso con el modificador Def
     String apellido;//creamos los atributos
 
     Persona(String nombre, String apellido) { //constructor que apunta a los atributos ya creados
+        //creamos un objeto 
+        new Imprimir().imprimir(this);
+        //super();//constructor vacío *Llamada al constructor de la clase Padre object
         this.nombre = nombre;
         this.apellido = apellido;
+        System.out.println("Objeto persona usando this: " + this);
+    }
+}
+//creamos otra clase:
+
+class Imprimir {
+
+    public Imprimir() {
+        super(); //constructor de la clase padre para reservar memoria    
+    }
+
+    public void imprimir(Persona persona) {
+        System.out.println("Persona desde la clase imprimir: " + persona);
+        System.out.println("Impresión del objeto actual (this): " + this);
     }
 }
