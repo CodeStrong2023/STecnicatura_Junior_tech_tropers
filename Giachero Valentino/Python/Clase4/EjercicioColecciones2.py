@@ -5,8 +5,8 @@
 #3 lista de palabras que aparecen en la segunda pero no en la primera
 #4 Lista de palabras que aparecen en ambas listas
 
-lista1 = [1, 2, 3, "Emir", "Sahir", 4, 5, 6, 5, 12, 13, 12, "Emir"]
-lista2 = [2, 4, 6, "Sahir", 8, 10, 12, "Sebastián", 13]
+lista1 = [1, 2, 3, "Ana", "Carlos", 4, 5, 6, 5, 12, 13, 12, "Ana"]
+lista2 = [2, 4, 6, "Carlos", 8, 10, 12, "Mariela", 13]
 conjunto = set(lista1)
 conjunto2 = set(lista2)
 
