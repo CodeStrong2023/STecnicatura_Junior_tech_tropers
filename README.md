@@ -1,4 +1,6 @@
-# STecnicatura_Junior_tech_tropers
+<div align="center">
+<h1 align="center">STecnicatura_Junior_tech_tropers 👋</h1>
+</div>
 
 Grupo Junior Tech Tropers
 
