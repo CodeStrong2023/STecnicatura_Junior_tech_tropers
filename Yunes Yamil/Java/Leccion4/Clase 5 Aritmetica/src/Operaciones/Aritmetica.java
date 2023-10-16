@@ -6,6 +6,17 @@ public class Aritmetica {
     int a; //El valor por default es 0 si no se inicializa.
     int b;
     
+    //El constructor es un metodo especial
+    public Aritmetica(){ //Constructor 1 vacio
+        System.out.println("Se está ejecuntando el constructor N° 1");
+    }
+    //Estamos viendo lo que se llama SOBRECARGA DE CONSTRUCTORES
+    public Aritmetica(int a, int b){ //Constructor 2
+        this.a = a;
+        this.b = b;
+        System.out.println("Se está ejecuntado el constructor N° 2");
+    }
+    
     //Metodo
     public void sumarNumeros(){
         int resultado = a + b;
