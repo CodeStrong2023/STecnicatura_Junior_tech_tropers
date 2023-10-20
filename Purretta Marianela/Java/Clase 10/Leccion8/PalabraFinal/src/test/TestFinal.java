@@ -12,11 +12,23 @@ Tiene distintos significados dependiendo de donde se aplique:
 
 package test;
 
+import domain.Persona;
+
 public class TestFinal {
     public static void main(String[] args) {
         final int miDni = 32133498;
         System.out.println("miDni = " + miDni);
         //miDni = 32708112;
+        //Persona.CONSTANTE_AQUI = 9; //No se modifica
+        System.out.println("Mi atributo constante es: " + Persona.CONSTANTE_AQUI );   
+        //creamos una variable, objeto de la clase Persona
+        final Persona persona1 = new Persona(); // Se crea un constructor por default en el código
+        // persona1 = new Persona(); //no se puede asignar una nueva referencia por el final
+        persona1.setNombre("Marianela Purretta");
+        System.out.println("persona1 nombre: "+persona1.getNombre());
+        persona1.setNombre("Sebastián Siri");//no se puede hacer una ueva referencia
+        //para un nuevo objeto pero si se puede modificar el valor del atributo
+        System.out.println("persona1 nombre: "+persona1.getNombre());
     }
 }
 
