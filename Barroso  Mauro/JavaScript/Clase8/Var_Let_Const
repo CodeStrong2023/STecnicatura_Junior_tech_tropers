@@ -1,0 +1,75 @@
+//Ejercicio: Dentro de un rango
+
+Let dentroRango = 5; // Cmabiamos el valor
+Let valMin = 0, valMax = 10;
+if( dentroRango >= valMin && dentroRango <= valMax){
+    console.log("Esta dentro del rango")
+}
+else{
+    console.log("Esta fuera del rango")
+}
+
+
+//Hoy ya no se usa var, se utiliza let y const
+
+Let nombre = "Pedro"
+console.log(nombre2)
+
+const apellido2 = "Lepes";
+// apellido2 = "Perez"; 
+console.log(apellido2) 
+
+
+//Uso de var let y const
+
+/*
+Con var puedes reasignar en cualquier momento
+este forma parte del ambito global
+Un error es que se sobreescrbie 
+/*
+
+var nombre = "Mauro";
+nombre = "Danilo";
+console.log(nombre);
+
+function saludar(){
+    var nombre = "Leandra";
+    console.log(nombre); 
+}
+console.log(nombre);//no lee el dato
+
+if(true){
+    var edad = 34;
+    console.log(edad);
+}
+console.log(edad);// En la funcion funciono correctamente
+
+/*
+let: esta puede ser reasignada en cualquier momento
+la diferenbcia es que su ambito es de bloque,
+solo disponible dentro de un bloque de llaves
+o dentro de una funcion 
+/*
+
+function saludar(){
+    Let nombre3 = "Danilo";
+    console.log(nombre3);
+}
+if(true){
+    Let edad3 = 33;
+    console.log(edad3);
+}
+console.log(edad2);
+
+/*
+const se utiliza para valores constantes que no pueden ser reasignadas
+/*
+
+const fechaNacimiento = 1999;
+console.log(fechaNacimiento);
+
+fechaNacimiento = 2004;
+
+console.log(fechaNacimiento); //se ejecuta el console anterior
+
+
