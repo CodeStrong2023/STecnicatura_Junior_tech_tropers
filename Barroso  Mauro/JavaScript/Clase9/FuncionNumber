@@ -1,0 +1,15 @@
+//Convertir String a Number
+Let miNumero = "10"; //Es una cadena
+console.log(typeof miNumero);
+Let edad2 = Number(miNumero); //Es una funcion
+console.log(typeof edad2);
+if(edad2 >= 18){
+    console.log("Puede votar");
+}
+else{
+    console.log("Es muy joven para votar");
+}
+
+Let resultado3 = edad2 >= 18 ? "Puede votar" : "Es muy joven para votar";
+console.log(resultado3);
+

@@ -1,0 +1,12 @@
+//Funcion IsNan
+if (isNaN(edad2)){
+    console.log("La variable no contiene un numero")
+    else{
+        if(edad2 >= 18){
+            console.log("Puede votar")
+        }
+        else{
+            console.log("Muy joven para votar")
+        }
+    }
+}
