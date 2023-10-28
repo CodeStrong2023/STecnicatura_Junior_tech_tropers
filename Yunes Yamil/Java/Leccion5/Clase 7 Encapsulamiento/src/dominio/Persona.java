@@ -17,7 +17,7 @@ public class Persona {
         return nombre;
     }
     
-    public void serNombre(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
     
