@@ -78,4 +78,4 @@ _CLASE 4 06/09/2026
 Clases y Objetos p2
 (Métodos, creación de Objetos, creación de Métodos)
 Ejercicios clase Scanner y JOptionPane
-.
+..
