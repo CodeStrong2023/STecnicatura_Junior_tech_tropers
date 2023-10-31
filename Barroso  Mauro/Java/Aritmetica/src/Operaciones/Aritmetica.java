@@ -6,6 +6,17 @@ public class Aritmetica {
     int a;//por default es a = 0 y b = 0
     int b;
     
+    //El constructor es un metodo especial
+    public Aritmetica(){
+        System.out.println("Se ejecuta el constructor numero uno");
+    }
+    
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Se ejecuta constructor numero dos");
+    }
+    
     //Metodo
     public void sumarNumeros(){
         int resultado = a + b;
