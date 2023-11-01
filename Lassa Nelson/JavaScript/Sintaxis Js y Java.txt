@@ -57,3 +57,7 @@ Operadores Relacionales (Boolena)
 >
 <=
 >=
+
+Operadores Lógicos
+And -> && Doble aspersan
+Or  -> ||
