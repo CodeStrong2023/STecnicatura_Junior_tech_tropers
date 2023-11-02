@@ -90,7 +90,7 @@ public class LoginForm extends JFrame implements ActionListener {
             String username = usernameField.getText();
             String password = new String(passwordField.getPassword());
 
-            if (username.equals("nelson") && password.equals("1234")) {
+            if (username.equals("valentino") && password.equals("1234")) {
                 JOptionPane.showMessageDialog(this, "Inicio de sesión exitoso");
             } else {
                 JOptionPane.showMessageDialog(this, "Credenciales incorrectas", "Error", JOptionPane.ERROR_MESSAGE);

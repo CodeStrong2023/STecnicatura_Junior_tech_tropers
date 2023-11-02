@@ -79,8 +79,8 @@ print(f'Sacamaos el elemento: {elementoBorrado} y la pila quedó así: {pila}')
 cola = ['Ariel', 'Osvaldo', 'Liliana', 'Pilar']
 
 #Agregar elementos al final de la cola
-cola.append('Natalia')
-cola.append('José')
+cola.append('Mariela')
+cola.append('Juan')
 print(cola)
 
 #Sacamos elementos de la cola

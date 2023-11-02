@@ -5,7 +5,7 @@ package test;
 //import static ar.com.codesystem.Utileria.imprimir;
 /**
  *
- * @author maria
+ * @author valen
  */
 public class TestUtileria {
     public static void main(String[] args) {

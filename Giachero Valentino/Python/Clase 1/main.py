@@ -22,15 +22,15 @@ else:
 print(len(nombres)) #Le pasamos como parametro la lista
 
 #Agregamos un elemento
-nombres.append('Marcelo')
+nombres.append('Juan')
 print(nombres)
 
 #Insertar un elemento en un indice específico
-nombres.insert(1, "Alberto Fernandez")
+nombres.insert(1, "Miguel Mateos")
 print(nombres)
 
 #Eliminamos un elemento
-nombres.remove('Marcelo')
+nombres.remove('Juan')
 print(nombres)
 
 #Eliminar el último elemento

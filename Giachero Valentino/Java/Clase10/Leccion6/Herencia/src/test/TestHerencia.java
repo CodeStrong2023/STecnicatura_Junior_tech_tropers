@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class TestHerencia {
     public static void main(String[] args) {
-        Empleado empleado1 = new Empleado("Marianela", 45000.0 );
+        Empleado empleado1 = new Empleado("Valentino", 45000.0 );
         System.out.println("empleado1 = " + empleado1);
         
         /*Date fecha1 = new Date();
