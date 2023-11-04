@@ -11,12 +11,15 @@ OPERADORES ARITNMETICOS
 -
 *
 /
+% //Residuo
+** //Expoente
 
 OPERADIRES DE ASIGNACION
 =
 
 OPERADORES DE COMPARACION
-==
+== Revisa el valor sin importar el tipo
+=== Revisa el valor y el tipo tambien // Este opperador se lo llama igualdad estricta 
 
 DOCUMENTAR
 // = Para una linea de comentarios
@@ -38,3 +41,24 @@ OPERADOR DE AUMENTO
 OPERADOR DE DECREMENTO
 --
 
+OPERADOR DE INCREMENTO 
+Ejemplo: let z = ++a; //PreIncremento
+Ejemplo: z = a++; //PostIncrementos
+
+OPERADOR DE DECREMENTO
+Ejemplo: let z = --a; //PreDecremento
+Ejemplo: z = a--; //PostDecrementos
+
+OPERADOR  DISTINTO (distinto)
+!= //Compara valor
+!== //Compara valor y tipo
+
+COMPARADOR RELACIONALES
+<
+>
+>=
+<= 
+
+OPERADORES LOGICOS 
+And → && doble aspersan
+Or → || 
