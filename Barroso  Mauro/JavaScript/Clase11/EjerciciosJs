@@ -1,0 +1,140 @@
+//Ejercicio_1: Calcular la estación del año:
+
+let mes = 8;
+let estacion;
+if(mes == 1 || mes ==2 || mes==12){
+    estacion = "Verano";
+}
+else if(mes == 3 || mes == 4 || mes ==5){
+    estacion = "Otoño";
+}
+else if(mes == 6 || mes == 7 || mes ==8){
+    estacion = "Invierno";
+}
+else if(mes == 9 || mes == 10 || mes== 11){
+    estacion = "Primavera";
+}
+else{
+    estacion = "Valor incorrecto";
+}
+
+console.log("El valor ingresado corresponde a la estación: "+estacion)
+
+//Ejercicio_2: Calcular la hora del día
+
+let horaDelDia = 22;
+let mensaje;
+if(horaDelDia >= 6 && horaDelDia <= 11){
+    mensaje = "Buenos días!";
+}
+else if(horaDelDia >= 12 && horaDelDia <= 16){
+    mensaje = "Buenas tardes!";
+}
+else if(horaDelDia >= 17 && horaDelDia < 19){
+    mensaje = "Buenas noches!";
+}
+else if(horaDelDia >= 20 && horaDelDia <= 23){
+    mensaje = "Hora de dormir!";
+}
+else{
+    mensaje = "Horario incorrecto";
+}
+console.log(mensaje);
+
+//Estructura switch
+
+switch(mes){
+    case 1: case 2: case 12:
+        estacion = "Verano";
+        break;
+    case 3: case 4: case 5:
+        estacion = "Otoño";
+        break;
+    case 6: case 7: case 8:
+        estacion = "Invierno";
+        break;
+    case 9: case 10: case 11:
+        estacion = "Primavera";
+        break;
+    default:
+        estacion = "Valor incorrecto";
+}
+console.log("Usted está en: "+estacion)
+
+//Dry don´t repeat your self
+let days = 1;
+switch (day) {
+    case 1:
+        console.log("Hoy es Lunes);
+        break;
+    case 2:  
+        console.log("Hoy es Martes);
+        break;
+    case 3:
+        console.log("Hoy es Miercoles);
+        break;
+    case 4:
+        console.log("Hoy es Jueves);
+        break;
+    case 5:
+        console.log("Hoy es Viewrnes);
+        break;
+    case 6:
+        console.log("Hoy es Sabado);
+        break;
+    case 7:
+        console.log("Hoy es Domingo);
+        break;
+    default:
+        console.log("No es un dia valido");
+}
+//Version mejorada
+
+let days2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+function getDay(n){
+    if(n <1 || n > 7){
+        throw new Error("Out of range");
+    }
+    return days[n-1];
+}
+console.log(getDay(5));
+
+//Hacer un ejercicio similar al que esta hecho, pero ahora con los meses del año, debes hacerlo con la estructura switch y luego con la función en la opción mejorada
+
+let months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+let month = "Enero";
+
+function printMonth(month) {
+
+    console.log("Es el mes " + month);
+}
+
+switch (month) {
+    case "Enero":
+    case "Febrero":
+    case "Marzo":
+    case "Abril":
+    case "Mayo":
+    case "Junio":
+    case "Julio":
+    case "Agosto":
+    case "Septiembre":
+    case "Octubre":
+    case "Noviembre":
+    case "Diciembre":
+
+        printMonth(month);
+
+        break;
+
+    default:
+        console.log("Este mes no corresponde");
+}
+
+function getMonth(n) {
+    if (n < 1 || n > 12) {
+        throw new Error("El numero de mes es incorrecto");
+    }
+    return months[n-1];
+}
+console.log(getMonth(1));
