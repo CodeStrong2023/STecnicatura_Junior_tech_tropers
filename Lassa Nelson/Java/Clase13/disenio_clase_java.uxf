@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>33</y><w>473</w><h>627</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>66</x><y>66</y><w>231</w><h>231</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+-idOrden
+-producto [ ]: Producto
+-ContadorOrdenes: int
+_MAX_PRODUCTOS: int=10_
+--
++Orden()
++agregarProducto(producto:Producto): void
++calculadoraTotal(): double
++mostarOrden(): void
+--
+Responsibilidades
+--Crear objetos Orden
+--Admisnistrar los productos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>176</w><h>33</h></coordinates><panel_attributes>Un dominio, direccion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>649</x><y>33</y><w>275</w><h>220</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>99</y><w>231</w><h>121</h></coordinates><panel_attributes>&lt;&lt;VentasTest&gt;&gt;
+--
++main(args: String [ ] ): void
+--
+Responsabilidades
+-- Ejecutar la prueba de las
+   aplicacion de ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>649</x><y>0</y><w>110</w><h>33</h></coordinates><panel_attributes>TestVentas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>66</x><y>385</y><w>231</w><h>242</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+-idProducto: int
+-nombre: String
+-precio: double
+-contadorProductos: int
+--
+-Producto()
++Producto(nombre: String, precio: double)
++getIdProducto() : int
++getNombre(): String
++setNombre(nombre: String): void
++getPrecio(): double
++setPrecio(precio: dublre): void
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>0</y><w>396</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;.&gt;&gt;</panel_attributes><additional_attributes>340;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>165</x><y>286</y><w>264</w><h>121</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Un Producto se agraga a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
